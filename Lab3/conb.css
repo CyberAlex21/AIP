@@ -1,0 +1,27 @@
+.eee .bbb {
+	color: red;
+}
+
+
+.eee2 h2 {
+	color: red;
+}
+
+
+.eee3 h2.bbb {
+	color: red;
+}
+
+
+.eee4 h3.bbb {
+	color: red;
+}
+
+
+.eee5 p.bbb {
+	color: red;
+}
+
+.eee6 .bbb .kkk {
+	color: red;
+}
