@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Сложные комбинации селекторов</title>
+	<link rel="stylesheet" href="conb.css">
+</head>
+<body>
+
+	<div class="eee">
+		<p class="bbb">Этот текст красный — p.bbb внутри .eee</p>
+		<div class="bbb">И этот div.bbb тоже красный</div>
+	</div>
+
+	<div class="eee2">
+		<h2>Этот h2 красный — внутри .eee</h2>
+		<h2>И этот h2 тоже</h2>
+	</div>
+
+	<div class="eee3">
+		<h2 class="bbb">Этот h2.bbb красный</h2>
+		<h2>А этот h2 без класса bbb — не тронут</h2>
+	</div>
+
+	<div class="eee4">
+		<h3 class="bbb">Этот h3.bbb красный</h3>
+		<h3>А этот h3 без класса bbb — не тронут</h3>
+	</div>
+
+	<div class="eee5">
+		<p class="bbb">Этот p.bbb красный</p>
+		<p>А этот p без класса bbb — не тронут</p>
+	</div>
+
+	<div class="eee6">
+		<div class="bbb">
+			<p class="kkk">Этот p.kkk красный — внутри .bbb внутри .eee</p>
+			<p>А этот p без класса kkk — не тронут</p>
+		</div>
+		<p class="kkk">Этот p.kkk НЕ красный — он вне .bbb</p>
+	</div>
+
+</body>
+</html>

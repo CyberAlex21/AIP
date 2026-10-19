@@ -1,0 +1,87 @@
+/* №1 — абзацы внутри div */
+div p {
+	color: red;
+}
+
+/* №2 — все h2 внутри div */
+div h2 {
+	color: red;
+}
+
+/* №3 — абзацы из #block3 */
+#block3 p {
+	color: red;
+}
+
+/* №4 — все h2 из #block4 */
+#block4 h2 {
+	color: red;
+}
+
+/* №5 — все элементы с классом bbb */
+.bbb {
+	color: red;
+}
+
+/* №6 — элементы .bbb внутри #block6 */
+#block6 .bbb {
+	color: red;
+}
+
+/* №7 — все p с классом bbb */
+p.bbb {
+	color: red;
+}
+
+/* №8 — все h2 с классом bbb */
+h2.bbb {
+	color: red;
+}
+
+/* №9 — p.bbb внутри #block9 */
+#block9 p.bbb {
+	color: red;
+}
+
+/* №10 — все .bbb и все .xxx */
+.bbb,
+.xxx {
+	color: red;
+}
+
+/* №11 — p.bbb и h2.xxx */
+p.bbb,
+h2.xxx {
+	color: red;
+}
+
+/* №12 — p.bbb и p.xxx внутри #block12 */
+#block12 p.bbb,
+#block12 p.xxx {
+	color: red;
+}
+
+/* №13 — все элементы с классом fff */
+.fff {
+	color: red;
+}
+
+/* №14 — все p внутри .fff */
+.fff p {
+	color: red;
+}
+
+/* №15 — все p с классом fff */
+p.fff {
+	color: red;
+}
+
+/* №16 — все .bbb внутри .fff */
+.fff .bbb {
+	color: red;
+}
+
+/* №17 — все h2.bbb внутри .fff */
+.fff h2.bbb {
+	color: red;
+}

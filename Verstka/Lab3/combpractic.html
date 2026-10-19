@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Практика на комбинации селекторов</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<!-- №1: div p -->
+	<h3>Задача №1 — div p</h3>
+	<div>
+		<p>+++</p>
+		<p>+++</p>
+	</div>
+	<div>
+		<p>+++</p>
+	</div>
+	<p>---</p>
+	<p>---</p>
+
+	<!-- №2: div h2 -->
+	<h3>Задача №2 — div h2</h3>
+	<div>
+		<h2>+++</h2>
+		<p>---</p>
+		<p>---</p>
+	</div>
+	<div>
+		<h2>+++</h2>
+		<p>---</p>
+	</div>
+	<h2>---</h2>
+	<p>---</p>
+
+	<!-- №3: #block3 p -->
+	<h3>Задача №3 — #block3 p</h3>
+	<div id="block3">
+		<h2>---</h2>
+		<p>+++</p>
+		<p>+++</p>
+	</div>
+	<div>
+		<h2>---</h2>
+		<p>---</p>
+	</div>
+	<h2>---</h2>
+	<p>---</p>
+
+	<!-- №4: #block4 h2 -->
+	<h3>Задача №4 — #block4 h2</h3>
+	<div id="block4">
+		<h2>+++</h2>
+		<p>---</p>
+		<p>---</p>
+		<h2>+++</h2>
+		<p>---</p>
+	</div>
+	<div>
+		<h2>---</h2>
+		<p>---</p>
+	</div>
+	<h2>---</h2>
+	<p>---</p>
+
+	<!-- №5: .bbb -->
+	<h3>Задача №5 — .bbb</h3>
+	<div>
+		<h2 class="bbb">+++</h2>
+		<p class="bbb">+++</p>
+		<p>---</p>
+		<h2 class="bbb">+++</h2>
+		<p>---</p>
+	</div>
+	<div class="bbb">+++</div>
+	<h2>---</h2>
+	<p class="bbb">+++</p>
+
+	<!-- №6: #block6 .bbb -->
+	<h3>Задача №6 — #block6 .bbb</h3>
+	<div id="block6">
+		<h2 class="bbb">+++</h2>
+		<p class="bbb">+++</p>
+		<p>---</p>
+		<h2 class="bbb">+++</h2>
+		<p>---</p>
+	</div>
+	<div class="bbb">---</div>
+	<h2>---</h2>
+	<p class="bbb">---</p>
+
+	<!-- №7: p.bbb -->
+	<h3>Задача №7 — p.bbb</h3>
+	<div>
+		<h2 class="bbb">---</h2>
+		<p class="bbb">+++</p>
+		<p>---</p>
+		<h2 class="bbb">---</h2>
+		<p class="bbb">+++</p>
+	</div>
+	<div class="bbb">---</div>
+	<h2>---</h2>
+	<p class="bbb">+++</p>
+
+	<!-- №8: h2.bbb -->
+	<h3>Задача №8 — h2.bbb</h3>
+	<div>
+		<h2 class="bbb">+++</h2>
+		<p class="bbb">---</p>
+		<p>---</p>
+		<h2 class="bbb">+++</h2>
+		<p class="bbb">---</p>
+	</div>
+	<h2>---</h2>
+	<p class="bbb">---</p>
+	<h2 class="bbb">+++</h2>
+	<p class="bbb">---</p>
+
+	<!-- №9: #block9 p.bbb -->
+	<h3>Задача №9 — #block9 p.bbb</h3>
+	<div id="block9">
+		<h2 class="bbb">---</h2>
+		<p class="bbb">+++</p>
+		<p>---</p>
+		<h2 class="bbb">---</h2>
+		<p class="bbb">+++</p>
+	</div>
+	<div class="bbb">---</div>
+	<h2>---</h2>
+	<p class="bbb">---</p>
+
+	<!-- №10: .bbb, .xxx -->
+	<h3>Задача №10 — .bbb, .xxx</h3>
+	<h2 class="bbb">+++</h2>
+	<p class="bbb">+++</p>
+	<h2 class="xxx">+++</h2>
+	<p>---</p>
+	<h2>---</h2>
+	<p class="xxx">+++</p>
+	<div class="bbb">+++</div>
+
+	<!-- №11: p.bbb, h2.xxx -->
+	<h3>Задача №11 — p.bbb, h2.xxx</h3>
+	<h2 class="bbb">---</h2>
+	<p class="bbb">+++</p>
+	<h2 class="xxx">+++</h2>
+	<p>---</p>
+	<h2>---</h2>
+	<p class="xxx">---</p>
+	<div class="bbb">---</div>
+
+	<!-- №12: #block12 p.bbb, #block12 p.xxx -->
+	<h3>Задача №12 — #block12 p.bbb, #block12 p.xxx</h3>
+	<div id="block12">
+		<h2 class="bbb">---</h2>
+		<p class="bbb">+++</p>
+		<h2 class="xxx">---</h2>
+		<p>---</p>
+		<h2>---</h2>
+		<p class="xxx">+++</p>
+		<div class="bbb">---</div>
+		<div class="xxx">---</div>
+	</div>
+	<h2 class="bbb">---</h2>
+	<p class="xxx">---</p>
+
+	<!-- №13: .fff -->
+	<h3>Задача №13 — .fff</h3>
+	<div class="fff">+++</div>
+	<h2 class="fff">+++</h2>
+	<p class="fff">+++</p>
+	<h2 class="bbb">---</h2>
+	<p class="xxx">---</p>
+
+	<!-- №14: .fff p -->
+	<h3>Задача №14 — .fff p</h3>
+	<div class="fff">
+		<h2>---</h2>
+		<p>+++</p>
+		<p>+++</p>
+	</div>
+	<h2 class="fff">---</h2>
+	<p class="fff">---</p>
+
+	<!-- №15: p.fff -->
+	<h3>Задача №15 — p.fff</h3>
+	<div>
+		<h2>---</h2>
+		<p>---</p>
+		<p>---</p>
+		<p class="fff">+++</p>
+	</div>
+	<h2 class="fff">---</h2>
+	<p class="fff">+++</p>
+
+	<!-- №16: .fff .bbb -->
+	<h3>Задача №16 — .fff .bbb</h3>
+	<div class="fff">
+		<h2 class="bbb">+++</h2>
+		<p>---</p>
+		<p>---</p>
+		<p class="bbb">+++</p>
+	</div>
+	<h2 class="fff">---</h2>
+	<p class="bbb">---</p>
+
+	<!-- №17: .fff h2.bbb -->
+	<h3>Задача №17 — .fff h2.bbb</h3>
+	<div class="fff">
+		<h2 class="bbb">+++</h2>
+		<p>---</p>
+		<h2 class="bbb">+++</h2>
+		<p>---</p>
+		<p class="bbb">---</p>
+	</div>
+	<h2 class="bbb">---</h2>
+	<p class="bbb">---</p>
+	<p class="fff">---</p>
+
+</body>
+</html>

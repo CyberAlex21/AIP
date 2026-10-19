@@ -1,0 +1,29 @@
+.eee {
+	color: red;
+}
+.xxx {
+	font-size: 30px;
+}
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+.eee, .zzz, .ggg {
+	text-align: center;
+	font-family: Arial;
+}
+
+.eee {
+	font-size: 20px;
+}
+
+.zzz {
+	font-size: 30px;
+}
+
+.ggg {
+	font-size: 35px;
+}

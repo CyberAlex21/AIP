@@ -1,0 +1,19 @@
+/* №1 — все h2 внутри #elem1 */
+#elem1 h2 {
+	color: red;
+}
+
+/* №2 — все элементы с классом text внутри #elem2 */
+#elem2 .text {
+	color: red;
+}
+
+/* №3 — только p с классом text внутри #elem3 */
+#elem3 p.text {
+	color: red;
+}
+
+/* №4 — только li с классом text внутри #elem4 */
+#elem4 li.text {
+	color: red;
+}

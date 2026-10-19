@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Использование id</title>
+	<link rel="stylesheet" href="idcss.css">
+</head>
+<body>
+
+	<!-- №1: #elem h2 — все h2 внутри #elem -->
+	<h3>Задача №1</h3>
+	<div id="elem1">
+		<h2>Choose</h2>
+		<p>---</p>
+
+		<h2>Choose</h2>
+		<p>---</p>
+	</div>
+
+	<h2>Do not +++</h2>
+	<p>---</p>
+
+	<!-- №2: #elem .text — все .text внутри #elem -->
+	<h3>Задача №2</h3>
+	<div id="elem2">
+		<p class="text">+++</p>
+		<p class="text">+++</p>
+
+		<ul>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li>---</li>
+			<li>---</li>
+		</ul>
+	</div>
+
+	<p class="text">---</p>
+
+	<!-- №3: #elem p.text — только p.text внутри #elem -->
+	<h3>Задача №3</h3>
+	<div id="elem3">
+		<p class="text">+++</p>
+		<p class="text">+++</p>
+
+		<ul>
+			<li class="text">---</li>
+			<li class="text">---</li>
+			<li class="text">---</li>
+			<li>---</li>
+			<li>---</li>
+		</ul>
+	</div>
+
+	<p class="text">---</p>
+
+	<!-- №4: #elem li.text — только li.text внутри #elem -->
+	<h3>Задача №4</h3>
+	<div id="elem4">
+		<p class="text">---</p>
+		<p class="text">---</p>
+
+		<ul>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li class="text">+++</li>
+			<li>---</li>
+			<li>---</li>
+		</ul>
+	</div>
+
+	<p class="text">---</p>
+
+</body>
+</html>

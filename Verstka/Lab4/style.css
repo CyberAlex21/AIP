@@ -1,0 +1,177 @@
+﻿/* Стили для всех заданий блока «Оформление» */
+
+.t93-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				background-color: #7e89eb;
+			}
+
+.t93-2 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				color: white;
+				background-color: #4dee99;
+				text-align: center;
+				font-size: 30px;
+			}
+
+.t95-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-width: 5px;
+				border-style: solid;
+				border-color: blue;
+			}
+
+.t96-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-width: 5px;
+				border-style: dotted;
+				border-color: red;
+			}
+
+.t97-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-width: 2px;
+				border-style: dashed;
+				border-color: orange;
+			}
+
+.t99-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-width: 10px;
+				border-style: double;
+				border-color: blue;
+			}
+
+.t100-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border: 1px solid red;
+			}
+
+.t100-2 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border: 2px dotted blue;
+			}
+
+.t100-3 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border: 3px dashed green;
+			}
+
+.t100-4 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border: 5px double orange;
+			}
+
+.t101-1 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-top: 3px solid blue;
+				border-bottom: 3px solid red;
+				border-left: 3px solid orange;
+				border-right: 3px solid green;
+			}
+
+.t101-2 [class~="elem"] {
+				width: 300px;
+				height: 200px;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				border-left: 3px solid red;
+				border-right: 3px dotted green;
+			}
+
+.t102-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				border: 1px solid green;
+				border-radius: 30px;
+			}
+
+.t103-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				background-color: #4dee99;
+				border-radius: 30px;
+			}
+
+.t104-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				border: 1px solid green;
+				border-radius: 100px;
+			}
+
+.t106-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				border: 1px solid green;
+				border-radius: 10px 30px 50px 70px;
+			}
+
+.t107-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				border: 1px solid green;
+				border-radius: 10px 50px;
+			}
+
+.t108-1 [class~="elem"] {
+				width: 200px;
+				height: 200px;
+				border: 1px solid green;
+				border-radius: 10px 30px 50px;
+			}
+
+.t110-1 [class~="elem"] {
+				width: 100px;
+				height: 100px;
+				border: 1px solid green;
+				border-radius: 100px;
+			}
+
+.t111-1 {
+				background-image: url("kartinka.png");
+			}
+
+.t112-1 {
+				background-repeat: repeat-y;
+				background-image: url("kartinka.png");
+			}
+
+.t112-2 {
+				background-repeat: repeat-x;
+				background-image: url("kartinka.png");
+			}
+
+.t115-1 ul {
+				list-style-type: square;
+			}
+
+.t116-1 ul {
+				list-style-type: circle;
+			}
+
+.t118-1 ul {
+				list-style-type: none;
+			}
+
+.t122-1 ol {
+				list-style-type: lower-alpha;
+			}
+
+.t123-1 ol {
+				list-style-type: upper-alpha;
+			}
+
+.t124-1 ol {
+				list-style-type: lower-greek;
+			}
