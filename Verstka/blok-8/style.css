@@ -1,0 +1,576 @@
+/* Стили для всех заданий блока «Флексы» */
+
+	.t204-1 .parent {
+		display: flex;
+		flex-direction: row;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t204-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t205-1 .parent {
+		display: flex;
+		flex-direction: row-reverse;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t205-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t206-1 .parent {
+		display: flex;
+		flex-direction: column;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t206-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t207-1 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t207-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t208-1 [class~="parent"] {
+		display: flex;
+		flex-direction: row;
+		width: 600px;
+		height: 200px;
+		border: 1px solid red;
+	}
+	.t208-1 [class~="parent"] div {
+		width: 100px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t209-1 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t209-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t209-2 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t209-2 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t209-3 .parent {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t209-3 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t209-4 .parent {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t209-4 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t209-5 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t209-5 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-1 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-2 .parent {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-2 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-3 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-3 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-4 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-4 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-5 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-5 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-6 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-6 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t210-7 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t210-7 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-1 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-2 .parent {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-2 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-3 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-3 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-4 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-4 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-5 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-5 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t211-6 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t211-6 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t214-1 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t214-1 .child {
+		width: 120px;
+		border: 1px solid green;
+	}
+	.t214-2 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: stretch;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t214-2 .child {
+		height: 40px;
+		border: 1px solid green;
+	}
+	.t214-3 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t214-3 .child {
+		height: 40px;
+		border: 1px solid green;
+	}
+	.t215-1 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-1 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-2 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-2 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-3 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-3 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-4 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-4 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-5 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-5 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-6 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-6 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-7 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-7 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-8 .parent {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-8 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t215-9 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-end;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t215-9 .child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t216-1 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t216-1 .child {
+		width: 100px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t216-1 .elem {
+		align-self: flex-end;
+	}
+	.t216-2 .parent {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t216-2 .child {
+		width: 100px;
+		border: 1px solid green;
+	}
+	.t216-2 .elem {
+		align-self: center;
+	}
+	.t216-3 .parent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.t216-3 .child {
+		width: 100px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.t216-3 .elem {
+		align-self: center;
+	}
+	.t217-1 [class~="parent"] {
+		display: flex;
+	}
+	.t217-1 [class~="parent"] div {
+		width: 100px;
+		height: 60px;
+		margin-right: 5px;
+		border: 1px solid green;
+	}
+	.t217-1 [class~="parent"] div:first-child {
+		order: 2;
+	}
+	.t217-1 [class~="parent"] div:last-child {
+		order: -1;
+	}

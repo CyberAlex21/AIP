@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Блок 5. Циклы</title>
+	<script>
+		// document.write пишет прямо в разметку страницы, и от него
+		// появляются лишние теги в body. Поэтому отправляем такой
+		// вывод в отдельный блок внизу страницы.
+		window.pokazatVyvod = function (tekst) {
+			var blok = document.getElementById('vyvod');
+			if (!blok) return;
+			blok.innerHTML = blok.innerHTML + tekst;
+		};
+		document.write = function () {
+			var tekst = Array.prototype.join.call(arguments, '');
+			if (document.body) {
+				window.pokazatVyvod(tekst);
+			} else {
+				document.addEventListener('DOMContentLoaded', function () {
+					window.pokazatVyvod(tekst);
+				});
+			}
+		};
+	</script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>Блок 5. Циклы</h1>
+	<p>Уроки 144-169 учебника JavaScript. Заданий: 106.</p>
+	<p>В уроках 143, 159 и 160 заданий нет — там только теория
+	(«Введение в циклы», «Область видимости», «Вложенные циклы и область видимости»).</p>
+	<div id="vyvod"></div>
+</body>
+</html>

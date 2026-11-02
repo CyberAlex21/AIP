@@ -1,0 +1,114 @@
+/* Стили для всех заданий блока «Флоаты» */
+
+	.t189-1 [class~="elem"] {
+		width: 500px;
+		text-align: justify;
+	}
+	.t189-1 [class~="elem"] img {
+		float: left;
+		margin-right: 10px;
+	}
+	.t189-1 [class~="elem"] img.vtoraya {
+		float: right;
+		margin-left: 10px;
+	}
+	.t190-1 [class~="elem"] {
+		width: 500px;
+		text-align: justify;
+	}
+	.t190-1 [class~="elem"] img {
+		float: left;
+		margin-right: 10px;
+	}
+	.t192-1 [class~="elem"] {
+		width: 500px;
+		padding: 10px;
+		border: 1px solid red;
+		text-align: justify;
+	}
+	.t192-1 [class~="elem"] img {
+		float: left;
+		margin-right: 10px;
+	}
+	.t193-1 [class~="elem"] {
+		width: 500px;
+		text-align: justify;
+	}
+	.t193-1 [class~="elem"] img {
+		float: left;
+		margin-right: 10px;
+	}
+	.t193-1 p {
+		clear: both;
+	}
+	.t197-1 [class~="elem"] {
+		width: 500px;
+		text-align: justify;
+	}
+	.t197-1 [class~="elem"] img {
+		float: left;
+		margin-right: 10px;
+	}
+	.t201-1 .parent {
+		width: 600px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid black;
+		text-align: justify;
+	}
+	.t201-1 .child {
+		float: right;
+		width: 100px;
+		height: 70px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border: 1px solid green;
+	}
+	.t202-1 .parent {
+		width: 800px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid black;
+		text-align: justify;
+	}
+	.t202-1 .child {
+		float: right;
+		width: 130px;
+		height: 70px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		text-align: center;
+		border: 1px solid green;
+	}
+	.t203-1 .parent {
+		padding: 20px;
+		border: 1px solid black;
+	}
+	.t203-1 .child {
+		float: left;
+		width: 100px;
+		height: 50px;
+		margin: 0 10px;
+		text-align: center;
+		border: 1px solid green;
+	}
+	.t203-1 .clearfix {
+		clear: both;
+	}
+	.t203-2 .parent {
+		padding: 20px;
+		border: 1px solid black;
+	}
+	.t203-2 .child {
+		float: right;
+		width: 100px;
+		height: 50px;
+		margin: 0 10px;
+		text-align: center;
+		border: 1px solid green;
+	}
+	.t203-2 .clearfix {
+		clear: both;
+	}

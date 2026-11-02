@@ -1,0 +1,502 @@
+/* Стили для всех заданий блока «Позиционирование» */
+
+	.t177-1 {
+		height: 250px;
+	}
+	.t177-1 [class~="elem1"], .t177-1 [class~="elem2"], .t177-1 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t177-1 [class~="elem1"] {
+		border: 1px solid red;
+		left: 30px;
+		top: 30px;
+	}
+	.t177-1 [class~="elem2"] {
+		border: 1px solid blue;
+		left: 100px;
+		top: 100px;
+	}
+	.t177-1 [class~="elem3"] {
+		border: 1px solid green;
+		left: 170px;
+		top: 170px;
+	}
+	.t177-2 {
+		height: 100px;
+	}
+	.t177-2 [class~="elem1"], .t177-2 [class~="elem2"], .t177-2 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		top: 30px;
+	}
+	.t177-2 [class~="elem1"] {
+		border: 1px solid red;
+		left: 30px;
+	}
+	.t177-2 [class~="elem2"] {
+		border: 1px solid blue;
+		left: 100px;
+	}
+	.t177-2 [class~="elem3"] {
+		border: 1px solid green;
+		left: 170px;
+	}
+	.t177-3 {
+		height: 150px;
+	}
+	.t177-3 [class~="elem1"], .t177-3 [class~="elem2"], .t177-3 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t177-3 [class~="elem1"] {
+		border: 1px solid red;
+		left: 30px;
+		top: 30px;
+	}
+	.t177-3 [class~="elem2"] {
+		border: 1px solid blue;
+		left: 60px;
+		top: 60px;
+	}
+	.t177-3 [class~="elem3"] {
+		border: 1px solid green;
+		left: 90px;
+		top: 90px;
+	}
+	.t177-4 {
+		height: 150px;
+	}
+	.t177-4 [class~="elem1"], .t177-4 [class~="elem2"], .t177-4 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t177-4 [class~="elem1"] {
+		background-color: #FF8888;
+		left: 30px;
+		top: 30px;
+	}
+	.t177-4 [class~="elem2"] {
+		background-color: #7E89EB;
+		left: 60px;
+		top: 60px;
+	}
+	.t177-4 [class~="elem3"] {
+		background-color: #4DEE99;
+		left: 90px;
+		top: 90px;
+	}
+	.t178-1 [class~="elem1"] {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #FF8888;
+	}
+	.t178-1 [class~="elem2"] {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #7E89EB;
+	}
+	.t178-1 [class~="elem3"] {
+		width: 100px;
+		height: 100px;
+		margin-bottom: 20px;
+		background-color: #4DEE99;
+	}
+	.t179-1 [class~="wrapper"] {
+		position: relative;
+		width: 500px;
+		height: 400px;
+		margin: 0 auto;
+		border: 1px solid green;
+	}
+	.t179-1 [class~="elem1"] {
+		border: 1px solid red;
+		position: absolute;
+		left: 100px;
+		top: 100px;
+		width: 100px;
+		height: 100px;
+	}
+	.t179-2 [class~="wrapper"] {
+		position: relative;
+		width: 500px;
+		height: 400px;
+		margin: 0 auto;
+		background-color: #4DEE99;
+	}
+	.t179-2 [class~="elem1"] {
+		background-color: #fff;
+		position: absolute;
+		right: 50px;
+		bottom: 50px;
+		width: 100px;
+		height: 100px;
+	}
+	.t179-2 [class~="elem2"] {
+		background-color: #fff;
+		position: absolute;
+		left: 50px;
+		top: 50px;
+		width: 100px;
+		height: 100px;
+	}
+	.t179-3 [class~="wrapper"] {
+		position: relative;
+		width: 200px;
+		height: 430px;
+		margin: 0 auto;
+		border: 1px solid black;
+	}
+	.t179-3 [class~="elem1"] {
+		border: 1px solid black;
+		background-color: red;
+		position: absolute;
+		left: 50px;
+		top: 50px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.t179-3 [class~="elem2"] {
+		background-color: yellow;
+		border: 1px solid black;
+		position: absolute;
+		left: 50px;
+		top: 160px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.t179-3 [class~="elem3"] {
+		border: 1px solid black;
+		background-color: green;
+		position: absolute;
+		left: 50px;
+		top: 270px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.t179-4 [class~="wrapper"] {
+		position: relative;
+		width: 500px;
+		height: 500px;
+		margin: 0 auto;
+		background-color: #4DEE99;
+		border-radius: 250px;
+	}
+	.t179-4 .eye1 {
+		background-color: #fff;
+		position: absolute;
+		right: 100px;
+		top: 70px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.t179-4 .eye2 {
+		background-color: #fff;
+		position: absolute;
+		left: 100px;
+		top: 70px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.t179-4 .noise {
+		background-color: #fff;
+		position: absolute;
+		left: 215px;
+		top: 200px;
+		width: 70px;
+		height: 70px;
+	}
+	.t179-4 .noise {
+		background-color: #fff;
+		position: absolute;
+		left: 215px;
+		top: 200px;
+		width: 70px;
+		height: 70px;
+	}
+	.t179-4 .mouth {
+		background-color: #fff;
+		position: absolute;
+		left: 150px;
+		top: 350px;
+		width: 200px;
+		height: 20px;
+	}
+	.t179-5 [class~="wrapper"] {
+		position: relative;
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+		background-color: #C4CD14;
+		border-radius: 200px;
+	}
+	.t179-5 .eye1 {
+		background-color: #fff;
+		position: absolute;
+		right: 80px;
+		top: 70px;
+		width: 80px;
+		height: 80px;
+		border-radius: 40px;
+		z-index: 3;
+	}
+	.t179-5 .eye2 {
+		background-color: #fff;
+		position: absolute;
+		left: 80px;
+		top: 70px;
+		width: 80px;
+		height: 80px;
+		border-radius: 40px;
+		z-index: 3;
+	}
+	.t179-5 .noise {
+		background-color: #fff;
+		position: absolute;
+		left: 165px;
+		top: 200px;
+		width: 70px;
+		height: 70px;
+		z-index: 3;
+		border-radius: 35px;
+	}
+	.t179-5 .mouth1 {
+		background-color: #fff;
+		position: absolute;
+		left: 100px;
+		top: 155px;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		z-index: 1;
+	}
+	.t179-5 .mouth2 {
+		background-color: #C4CD14;
+		position: absolute;
+		left: 50px;
+		top: 30px;
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		z-index: 2;
+	}
+	.t180-1 [class~="parent"] {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		width: 400px;
+		height: 400px;
+		border: 1px solid red;
+	}
+	.t180-1 [class~="parent"] div {
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		border: 1px solid green;
+	}
+	.t180-1 [class~="first"] {
+		top: 0;
+		right: 0;
+	}
+	.t180-1 [class~="second"] {
+		bottom: 0;
+		left: 0;
+	}
+	.t181-1 [class~="roditel"] {
+		position: relative;
+		width: 400px;
+		height: 200px;
+		border: 1px solid red;
+	}
+	.t181-1 [class~="roditel"] div {
+		position: absolute;
+		width: 100px;
+		height: 50px;
+		border: 1px solid green;
+	}
+	.t181-1 [class~="pervyy"] {
+		top: 10px;
+		left: 10px;
+	}
+	.t181-1 [class~="vtoroy"] {
+		width: 100px;
+		height: 50px;
+		border: 1px solid blue;
+	}
+	.t182-1 [class~="elem"] {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		right: 100px;
+		bottom: 100px;
+		border: 1px solid green;
+	}
+	.t183-1 [class~="wrapper"] {
+		position: relative;
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+		border: 1px solid green;
+	}
+	.t183-1 [class~="elem1"] {
+		position: absolute;
+		left: -50px;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		border: 1px solid red;
+	}
+	.t183-1 [class~="elem2"] {
+		position: absolute;
+		right: -50px;
+		top: 0;
+		width: 30px;
+		height: 30px;
+		border: 1px solid red;
+	}
+	.t184-1 [class~="wrapper"] {
+		position: relative;
+		width: 400px;
+		padding: 20px;
+		margin: 0 auto;
+		border: 1px solid green;
+		text-align: justify;
+	}
+	.t184-1 [class~="elem1"] {
+		position: fixed;
+		left: 200px;
+		top: 10px;
+		width: 30px;
+		height: 30px;
+		border: 1px solid red;
+	}
+	.t184-1 [class~="elem2"] {
+		position: fixed;
+		right: 200px;
+		top: 10px;
+		width: 30px;
+		height: 30px;
+		border: 1px solid red;
+	}
+	.t185-1 {
+		margin: 0;
+	}
+	.t185-1 [class~="fixed"] {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		background-color: #C4CD14;
+		text-align: center;
+		line-height: 50px;
+		font-size: 21px;
+		color: white;
+		border-bottom: 1px solid #A3AA11;
+	}
+	.t185-1 [class~="text"] {
+		width: 600px;
+		margin: 60px auto;
+		padding: 20px;
+		border: 1px solid #C4CD14;
+	}
+	.t186-1 [class~="elem1"] {
+		position: absolute;
+		top: 50px;
+		left: 50px;
+		width: 200px;
+		height: 200px;
+		background-color: red;
+	}
+	.t186-1 [class~="elem2"] {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		width: 200px;
+		height: 200px;
+		background-color: green;
+	}
+	.t187-1 {
+		height: 150px;
+	}
+	.t187-1 [class~="elem1"], .t187-1 [class~="elem2"], .t187-1 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t187-1 [class~="elem1"] {
+		background-color: #ff8888;
+		left: 30px;
+		top: 30px;
+	}
+	.t187-1 [class~="elem2"] {
+		background-color: #7e89eb;
+		left: 60px;
+		top: 60px;
+		z-index: 1;
+	}
+	.t187-1 [class~="elem3"] {
+		background-color: #4dee99;
+		left: 90px;
+		top: 90px;
+	}
+	.t187-2 {
+		height: 150px;
+	}
+	.t187-2 [class~="elem1"], .t187-2 [class~="elem2"], .t187-2 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t187-2 [class~="elem1"] {
+		background-color: #ff8888;
+		left: 30px;
+		top: 30px;
+		z-index: 2;
+	}
+	.t187-2 [class~="elem2"] {
+		background-color: #7e89eb;
+		left: 60px;
+		top: 60px;
+		z-index: 1;
+	}
+	.t187-2 [class~="elem3"] {
+		background-color: #4dee99;
+		left: 90px;
+		top: 90px;
+	}
+	.t188-1 {
+		height: 150px;
+	}
+	.t188-1 [class~="elem1"], .t188-1 [class~="elem2"], .t188-1 [class~="elem3"] {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.t188-1 [class~="elem1"] {
+		background-color: #ff8888;
+		left: 30px;
+		top: 30px;
+	}
+	.t188-1 [class~="elem2"] {
+		z-index: -1;
+		background-color: #7e89eb;
+		left: 60px;
+		top: 60px;
+	}
+	.t188-1 [class~="elem3"] {
+		background-color: #4dee99;
+		left: 90px;
+		top: 90px;
+	}
